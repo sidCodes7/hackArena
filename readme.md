@@ -167,6 +167,35 @@ Nslookup ⇒ ip of domain using DNS servers
 Traceroute ⇒ data packet route from source to dest
 Netstat -tuln ⇒ Active TCP/UDP ports on system
 
+
+* ping 
+    * Checks connectivity with a remote host using ICMP packets
+* ping -c 4 
+    * Sends only 4 ping packets and measures RTT/packet loss
+* nslookup 
+    * Resolves domain name to IP address using DNS
+* nslookup -type=MX 
+    * Displays mail server records of a domain
+* nslookup -type=NS 
+    * Displays name server records of a domain
+* ifconfig
+    * Displays network interface configuration details
+* ip addr
+    * Modern alternative to ifconfig for viewing IP/interface details
+* netstat -t -n -l
+    * Shows listening TCP ports and active connections
+* netstat -a
+    * Displays all active and listening connections
+* netstat -r
+    * Displays routing table
+* netstat -s
+    * Displays protocol-wise network statistics
+* traceroute 
+    * Traces packet path and intermediate routers to destination
+* tracert  (Windows)
+    * Windows equivalent of traceroute
+
+
 #2
 
 Waterfall view ⇒ loading sequence + resource duration
