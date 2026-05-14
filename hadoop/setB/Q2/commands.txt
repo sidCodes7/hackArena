@@ -1,0 +1,3 @@
+gcc -fPIC -shared -o libmath.so math.c -lm
+gcc test.c -L. -lmath -Wl,-rpath,. -o test
+./test

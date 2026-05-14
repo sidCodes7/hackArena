@@ -1,0 +1,2 @@
+gcc sum_threads.c -o sum -pthread
+./sum
